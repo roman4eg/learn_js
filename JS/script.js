@@ -1,5 +1,6 @@
 "use strict";
+let nubmerOfFilms;
 
-const result = confirm('Are you here?');
+nubmerOfFilms = prompt( "Сколько фильмов вы уже посмотрели?", 0);
 
-console.log(result);
+console.log(nubmerOfFilms);
